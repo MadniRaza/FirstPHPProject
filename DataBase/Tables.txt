@@ -1,0 +1,89 @@
+
+
+Create Database BluePumpkinDB;
+
+
+
+Use BluePumpkinDB;
+
+
+
+Create table tblAdmin
+(
+A_ID int auto_increment primary key,
+A_Name varchar(20),
+A_Email varchar(30),
+A_CellNo varchar(20),
+A_Address varchar(100),
+A_Img varchar(10),
+A_LoginName varchar(20),
+A_Loginpass varchar(20),
+A_JDate varchar(10)
+);
+
+
+
+insert into tbladmin values('','Raza','mmr9226@gmail.com','03009254033','Karachi Pakistan','1','Raza','123','10-12-14');
+
+
+
+Create table tblEmployees
+(
+Emp_ID int auto_increment primary key,
+Emp_Name varchar(20),
+Emp_Email varchar(20),
+Emp_CellNo varchar(20),
+Emp_Address varchar(100),
+Emp_Img varchar(10),
+Emp_LoginName varchar(20),
+Emp_Loginpass varchar(20),
+Emp_JDate varchar(10)
+);
+
+
+
+Create table tblEventsCategory
+(
+EC_ID int auto_increment primary key,
+EC_Name varchar(20)
+);
+
+
+
+Create table tblEvents
+(
+E_Id int auto_increment primary key,
+E_Name varchar(30),
+E_Date varchar(10),
+E_Desc varchar(100),
+EC_id int,
+foreign key (EC_ID) references tblEventsCategory(EC_ID),
+E_Img varchar(10)
+);
+
+
+
+
+Create table tblEventRequests
+(
+ER_ID int auto_increment primary key,
+Emp_ID int,
+foreign key (Emp_ID) references tblEmployees(EMp_ID),
+E_Id int,
+foreign key (E_ID) references tblEvents(E_ID),
+ER_Date varchar(10),
+ER_Status varchar(10)
+);
+
+
+
+create table tbleventWinnerDetails
+(
+EW_ID int auto_increment primary key,
+Emp_Id int,
+foreign key (Emp_id) references tblemployees(emp_id),
+EW_Desc varchar(100),
+E_ID int,
+foreign key (E_ID) references tblEvents(E_ID)
+);
+

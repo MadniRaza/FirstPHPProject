@@ -1,0 +1,516 @@
+body
+{
+	background:#efe1b4 url('../../../../115.167.77.38/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID4BC95DE5A27D015/RV200000/AVSkyController_3.1.2.49749/Br200/CL3-ea/EI61474044/Ht240/IP139.190.240.217_2409/IQ25/MO15/MT0/NIkhi-opt-01.wi-tribe.net/file.3be.delaye');
+	color:#542437;
+}
+
+/*
+ * Global tag styles
+ */
+ 
+a
+{
+	color:#542437;
+}
+
+a:hover
+{
+	color:#8e0807;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	color:#C02942;
+}
+
+/*
+ * Top static area
+ */
+ 
+div.topstatic
+{
+	background:#efe1b4 url('../../../../115.167.77.38/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID4BC95DE5A27D015/RV200000/AVSkyController_3.1.2.49749/Br200/CL3-ea/EI61474044/Ht240/IP139.190.240.217_2409/IQ25/MO15/MT0/NIkhi-opt-01.wi-tribe.net/file.3be.delaye');
+}
+
+/*
+ * Top area line
+ */
+
+.topline .col_l,
+.topline .col_r
+{
+	color:#542437;
+}
+
+/*
+ * Top area line: Call Me Block
+ */
+
+#callmediv
+{
+	background:#efe1b4 url('../../../../115.167.77.38/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID4BC95DE5A27D015/RV200000/AVSkyController_3.1.2.49749/Br200/CL3-ea/EI61474044/Ht240/IP139.190.240.217_2409/IQ25/MO15/MT0/NIkhi-opt-01.wi-tribe.net/file.3be.delaye');
+	border:1px solid #d7d7d7;
+}
+
+#callmediv .close,
+#map .close,
+#checkrates .close
+{
+	background:#542437;
+	color:#fff;
+}
+
+/*
+ * Top area line: Check Rates Button
+ */
+
+#button_check_rates
+{
+	color:#542437;
+	
+	-webkit-text-shadow:#f0d5a6 0 1px 0;
+	-moz-text-shadow:#f0d5a6 0 1px 0;
+	text-shadow:#f0d5a6 0 1px 0;
+}
+
+#button_check_rates.pressed
+{
+	-webkit-text-shadow:#d2d2d2 0 1px 0;
+	-moz-text-shadow:#d2d2d2 0 1px 0;
+	text-shadow:#d2d2d2 0 1px 0;
+}
+
+#button_check_rates .normal span,
+#button_check_rates .hov span,
+#button_check_rates .press span,
+#button_check_rates .sel span
+{
+    background-image:url('../img/buttons_book/b1.png');
+}
+
+#button_check_rates .normal span span,
+#button_check_rates .hov span span,
+#button_check_rates .press span span,
+#button_check_rates .sel span span
+{
+    background-image:url('../img/buttons_book/b1.png');
+}
+
+/*
+ * Top area line: Map
+ */
+
+#mappointer
+{
+	background:url('../img/pointer-1.png');
+}
+
+#map
+{
+	background:#efe1b4 url('../../../../115.167.77.38/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID4BC95DE5A27D015/RV200000/AVSkyController_3.1.2.49749/Br200/CL3-ea/EI61474044/Ht240/IP139.190.240.217_2409/IQ25/MO15/MT0/NIkhi-opt-01.wi-tribe.net/file.3be.delaye');
+}
+
+/*
+ * Menu area line
+ */
+
+.menuline
+{
+	border-top:1px solid #D95B43;
+	border-bottom:1px solid #D95B43;
+}
+
+
+ul.menu li a
+{
+	color:#C02942;
+}
+
+ul.menu li a:hover
+{
+	border-bottom-color:#a62339;
+	color:#a62339;
+}
+
+ul.menu li a span
+{
+	color:#424242;
+}
+
+ul.menu li.sel
+{
+	background:#542437;
+}
+
+ul.menu li.sel a span
+{
+	color:#ddd397;
+}
+
+.menu li ul
+{
+	background:#542437;
+	-moz-box-shadow:5px 5px 5px 0 rgba(0,0,0,0.5);
+	-webkit-box-shadow:5px 5px 5px 0 rgba(0,0,0,0.5);
+	box-shadow:5px 5px 5px 0 rgba(0,0,0,0.5);
+}
+
+.menu li ul li
+{
+	border-top:1px solid #542437;
+}
+
+.menu li ul li a
+{
+	color:#ccbf95;
+	background:#542437 url('../img/submenuarr2.gif') 4px 10px no-repeat;
+}
+
+.menu li ul li a:hover
+{
+	background-color:#a62339;
+	color:#ecddac;
+}
+
+
+/*
+ * Misc
+ */
+
+.line
+{
+	border-bottom:1px solid #D95B43;
+}
+
+/*
+ * Middle Line Area on Main Page
+ */
+ 
+.mainmiddle
+{
+	border-top:1px solid #542437;
+	border-bottom:1px solid #a07a4b;
+	background:#a65e77 url('../../../../115.167.77.38/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID4BC95DE5A27D015/RV200000/AVSkyController_3.1.2.49749/Br200/CL3-ea/EI61477273/Ht240/IP139.190.240.217_2408/IQ25/MO15/MT0/NIkhi-opt-01.wi-tribe.net/file.3c1.delaye') top center;
+}
+
+#photorow img
+{
+	border-right:4px solid #ECD078; 
+	border-left:4px solid #ECD078;
+}
+
+/*
+ * Banners
+ */
+
+.banner
+{
+	background:#url('../../../../115.167.77.38/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID4BC95DE5A27D015/RV200000/AVSkyController_3.1.2.49749/Br200/CL3-ea/EI61474044/Ht240/IP139.190.240.217_2409/IQ25/MO15/MT0/NIkhi-opt-01.wi-tribe.net/file.3be.delaye');
+  color:#C02942;
+	border:3px solid #542437;
+}
+
+.banner:hover
+{
+	color:#542437;
+	
+	-webkit-box-shadow:#000 0 0 15px 0;
+	-moz-box-shadow:#000 0 0 15px 0;
+	box-shadow:#000 0 0 15px 0;
+}
+
+.banner .photo
+{
+	-webkit-box-shadow:#afafaf 3px 0 3px 0;
+	-moz-box-shadow:#afafaf 3px 0 3px 0;
+	box-shadow:#afafaf 3px 0 3px 0;
+}
+
+/*
+ * Bottom Area Line
+ */
+
+.botline
+{
+	color:#434343;
+}
+
+/*
+ * Regular Buttons
+ */
+
+.button
+{
+	color:#542437;
+	
+	-webkit-text-shadow:#dfdfdf 0 1px 0;
+	-moz-text-shadow:#dfdfdf 0 1px 0;
+	text-shadow:#dfdfdf 0 1px 0;
+}
+
+.button:hover
+{
+	color:#542437; 
+}
+
+.button.b2,
+.button.b2:hover,
+.button.b5,
+.button.b5:hover,
+.button.b6,
+.button.b6:hover,
+.button.b7,
+.button.b7:hover
+{
+	color:#ffffff;
+	-webkit-text-shadow:#6d6d6d 0 -1px 0;
+	-moz-text-shadow:#6d6d6d 0 -1px 0;
+	text-shadow:#6d6d6d 0 -1px 0;
+}
+
+/*
+ * Content Line
+ */
+ 
+.list1
+{
+	list-style-image: url('../img/arrow.gif');
+}
+
+.crumbs
+{
+	color:#542437;
+}
+
+.border
+{
+	border:7px solid #f4ecd4;
+	border-color:rgba(255,255,255,0.5);
+	-webkit-box-shadow:#D95B43 0 0 0 1px;
+	-moz-box-shadow:#D95B43 0 0 0 1px;
+	box-shadow:#D95B43 0 0 0 1px;
+}
+
+a:hover .border
+{
+	border-color:#fff;
+	border-color:rgba(255,255,255,1);
+
+	-webkit-box-shadow:#D95B43 0 0 7px 1px;
+	-moz-box-shadow:#D95B43 0 0 7px 1px;
+	box-shadow:#D95B43 0 0 7px 1px;
+}
+
+.brace
+{
+	background:url('../img/arrow-line.png') no-repeat left;
+}
+
+.visa_comment
+{
+	color:#542437;
+}
+
+.portfolio li .pic a
+{
+	border:6px solid #f4ecd4;
+	border-color:rgba(255,255,255,0.5);
+	-webkit-box-shadow:#D95B43 0 0 0 1px;
+	-moz-box-shadow:#D95B43 0 0 0 1px;
+	box-shadow:#D95B43 0 0 0 1px;
+}
+
+.portfolio li .pic a:hover
+{
+	border-color:#fff;
+
+	-webkit-box-shadow:#D95B43 0 0 7px 1px;
+	-moz-box-shadow:#D95B43 0 0 7px 1px;
+	box-shadow:#D95B43 0 0 7px 1px;
+}
+
+.portfolio.style-list li .pic
+{
+	background:#e6d8ac;
+	background:rgba(0,0,0,0.04);
+}
+
+.rooms li
+{
+	background:#e6d8ac;
+	background:rgba(0,0,0,0.04);
+
+	-webkit-box-shadow:#D95B43 0 0 0 1px;
+	-moz-box-shadow:#D95B43 0 0 0 1px;
+	box-shadow:#D95B43 0 0 0 1px;
+}
+
+.rooms li:hover
+{
+	background:rgba(255,255,255,0.5);
+
+	-webkit-box-shadow:#D95B43 0 0 10px 1px;
+	-moz-box-shadow:#D95B43 0 0 10px 1px;
+	box-shadow:#D95B43 0 0 10px 1px;
+}
+
+blockquote.huge,
+.quote1.huge,
+.quote2.huge,
+.quote3.huge,
+.quote4.huge
+{
+	color:#542437;
+}
+
+blockquote.huge .comment,
+.quote1.huge .comment,
+.quote2.huge .comment,
+.quote3.huge .comment,
+.quote4.huge .comment
+{
+	color:#939393;
+	border-top:1px solid #d0d0d0;
+}
+
+.prices tr th
+{
+	color:#bbbbbb;
+}
+
+.prices tr td
+{
+	color:#542437;
+	border-top:1px solid #bababa;
+  border-bottom:1px solid #bababa;
+}
+
+.prices tr td:first-child
+{
+	color:#542437;
+}
+
+.prices .comment
+{
+	color:#adadad;
+}
+
+
+.prices-today-row
+{
+	color:#8e0807;
+}
+
+#checkrates
+{
+	background:#C02942 url('../../../../115.167.77.38/Rqae5eb53b-c103-49e4-a363-9cb05f81161d/ID4BC95DE5A27D015/RV200000/AVSkyController_3.1.2.49749/Br200/CL3-ea/EI61474044/Ht240/IP139.190.240.217_2409/IQ25/MO15/MT0/NIkhi-opt-01.wi-tribe.net/file.3be.delaye');
+}
+
+.table1
+{
+	border:1px solid #D95B43;
+} 
+
+.table1 th
+{
+	color:#542437;
+	background-color:#ddd0a7;
+	background-color:rgba(0,0,0,0.08); 
+	
+	-moz-text-shadow:rgba(255,255,255,0.8) 0 1px 0;
+	-webkit-text-shadow:rgba(255,255,255,0.8) 0 1px 0;
+	text-shadow:rgba(255,255,255,0.8) 0 1px 0;
+}
+
+.table1 td
+{
+	background-color:#e8dbb0;
+	background-color:rgba(0,0,0,0.03);
+}
+
+.table1 tr.odd td
+{
+	background-color:#ebddb0;
+	background-color:rgba(0,0,0,0.015);
+}
+
+.posts-month
+{
+	border-bottom:1px solid #D95B43;
+	color:#542437;
+}
+
+.post-item
+{
+	border-left:8px solid #d4bb6c;
+	border-bottom:1px solid #D95B43; 
+}
+
+.post-item:hover
+{
+	-moz-box-shadow:#d4bb6c 0 0 15px 0;
+	-webkitbox-shadow:#d4bb6c 0 0 15px 0;
+	box-shadow:#d4bb6c 0 0 15px 0;
+	border-right-color:#D95B43;
+}
+
+.post-item .day
+{
+	color:#542437;
+}
+
+.post-item .date
+{
+	color:#542437;
+}
+
+/*
+ * Footer Area Line
+ */
+ 
+.footer
+{
+	color:#542437;
+}
+
+.follow_icon.twitter,
+.follow_icon.twitter div
+{
+	background-image:url('../img/icons/twitter1.png');
+}
+
+.follow_icon.facebook,
+.follow_icon.facebook div
+{
+	background-image:url('../img/icons/facebook1.png');
+}
+
+.follow_icon.rss,
+.follow_icon.rss div
+{
+	background-image:url('../img/icons/rss1.png');
+}
+
+.footermenu li a
+{
+	color:#542437;
+}
+
+.footermenu li a:hover
+{
+	color:#8e0807;
+}
+
+/*
+	Cusel
+*/
+.cusel span:hover,
+.cusel .cuselOptHover { /* реакция оптиона на наведение */
+	background: #eee;
+	color: #000;
+}

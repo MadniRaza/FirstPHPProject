@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Adamina);
+
+body
+{
+	font-family: 'Adamina', 'Arial', sans-serif;
+	font-size:85%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-family: 'Adamina', 'Arial', sans-serif;
+}
+
+.topline .col_l,
+.topline .col_r
+{
+	font-family: 'Adamina', 'Arial', sans-serif;
+	font-style:normal;
+}
+
+ul.menu li a span
+{
+	font-style:italic;
+	font-weight:normal;
+	font-family: 'Times New Roman', cursive;
+	font-size:14px;
+}
+
+ul.menu li a
+{
+	font-family:'Adamina', 'Trebuchet MS';
+	font-size:23px;
+}
+
+.menu li ul li a
+{
+	font-family:'Adamina', 'Arial';
+}

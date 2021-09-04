@@ -1,0 +1,29 @@
+body
+{
+	font-family: 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-family: 'Arial', sans-serif;
+}
+
+.topline .col_l,
+.topline .col_r
+{
+	font-family:'Georgia', 'Times New Roman';
+	font-style:italic;
+}
+
+ul.menu li a span
+{
+	font-size:12px;
+	font-style:italic;
+	font-weight:bold;
+	font-family:'Georgia', 'Times New Roman', cursive;
+}

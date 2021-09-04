@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Andika);
+
+body
+{
+	font-family: 'Andika', 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-family: 'Andika', 'Arial', sans-serif;
+}
+
+.topline .col_l,
+.topline .col_r
+{
+	font-family: 'Andika', 'Arial', sans-serif;
+	font-style:normal;
+}
+
+ul.menu li a span
+{
+	font-style:italic;
+	font-weight:normal;
+	font-family: 'Times New Roman', cursive;
+	font-size:14px;
+}
+
+ul.menu li a
+{
+	font-family:'Andika', 'Trebuchet MS';
+	font-size:24px;
+}
+
+.menu li ul li a
+{
+	font-family:'Andika', 'Arial';
+}
